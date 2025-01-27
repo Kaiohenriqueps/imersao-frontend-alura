@@ -2,6 +2,21 @@ body {
     background-color: #000;
 }
 
-h1 {
-    color: #fff;
+.sidebar {
+    position: fixed; /*Posição fixa na página*/
+    top: 0; /*Sempre ficar na parte de cima*/
+    left: 0; /*Sempre ficar na parte da esquerda*/
+    bottom: 0; /*Sempre ficar na parte de baixo*/
+    padding: 12px; /*Em todos os eixos, terá essa espaçamento*/
+    width: 300px; /*Largura do sidebar*/
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img {
+    width: 80px;
 }
