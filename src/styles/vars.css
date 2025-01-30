@@ -3,10 +3,13 @@
     --font-dm-sans: "DM Sans", sans-serif;
 
     /* COLORS */
+    --font-color: #fff;
+    --bg-default: #000;
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0, 0, 07);
     --bg-search-color: #242424;
     --bg-search-input-color: #fff;
     --bg-subscribe-color: #a7a7a7;
     --bg-login-color: #000;
+    --bg-container-color: #131313;
 }

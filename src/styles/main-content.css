@@ -90,3 +90,32 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist-container {
+    height: 70vh;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--bg-container-color);
+    margin-top: 10px;
+    margin-left: 10px; /* Joga o container para a direita, porque estamos alinhando a margem da esquerda*/
+    margin-right: 56px;
+    width: 71.5vw;
+}
+
+.playlist {
+    margin: 30px;
+}
+
+.playlist #title {
+    color: var(--font-color);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist #subtitle {
+    color: var(--font-color);
+    font-size: 25px;
+    font-weight: 500;
+}
