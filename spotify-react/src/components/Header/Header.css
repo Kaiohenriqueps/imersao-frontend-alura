@@ -1,0 +1,97 @@
+/* HEADER */
+
+.main-container {
+    max-width: 80vw; /* Largura máxima */
+    height: 100vh; /* Altura máxima */
+    margin-left: 320px; /* Joga o container para a direita, porque estamos alinhando a margem da esquerda*/
+    margin-right: 56px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--bg-search-color);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: var(--bg-search-input-color);
+    text-overflow: ellipsis; /* Texto fica com ... */
+    overflow: hidden; /* Texto que ultrapassa o tamanho do container é escondido */
+    white-space: nowrap; /* Texto não quebra linha */
+    outline: none; /* Remove a borda do input */
+}
+
+.header__login .subscribe {
+    color: var(--bg-subscribe-color);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--bg-login-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.header__login .login:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
