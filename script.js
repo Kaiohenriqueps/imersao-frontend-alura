@@ -9,7 +9,7 @@ function displayResults(result) {
 
     result.forEach(element => {
         artistName.innerText = element.name;
-        artistImage.src = element.image;
+        artistImage.src = element.urlImg;
     });
 
     resultArtist.classList.remove('hidden');
@@ -25,8 +25,8 @@ function requestApi(searchTerm) {
 document.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase();
     if (searchTerm === '') {
-        resultPlaylist.classList.add('hidden');
         resultArtist.classList.remove('hidden');
+        resultPlaylist.classList.add('hidden');
         return;
     }
 
