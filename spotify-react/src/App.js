@@ -1,14 +1,18 @@
+// import css
 import './App.css';
-import Header from './components/Header/HeaderComponent';
+
+// component imports
 import Main from './components/Main/Main';
-import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer';
+import Sidebar from './components/Sidebar/Sidebar';
+import Header from './components/Header/HeaderComponent';
 
 function App() {
+
   return (
     <div>
-      <Sidebar />
-      <Header />
+      <Sidebar/>
+      <Header/>
       <Main/>
       <Footer/>
     </div>
